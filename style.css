@@ -9,21 +9,27 @@ html{
 
 .hero{
     position: relative;
+    max-width: 100%;
     height: 100vh;
-    width: 100%;
     background: #324575;
+    position: relative;
 }
 
 nav{
     display: flex;
-    width: 84%;
+    max-width: 84%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
 }
 
-nav ul li{
+.logo{
+    max-width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
@@ -42,7 +48,7 @@ nav ul li a:hover{
 
 .content{
     margin-left: 8%;
-    margin-top: 13%;
+    margin-top: 15%;
 }
 
 .content h1{
@@ -54,13 +60,14 @@ nav ul li a:hover{
 span{
     color: #9e9e9e;
 }
+
 span:hover{
     color:darkorange;
     font-style:italic;
 }
 
 .content p{
-    color: #ffffff;
+    color: white;
     line-height: 22px;
 }
 
@@ -80,45 +87,56 @@ span:hover{
     color: white;
 }
 
+.pics{
+    max-width: 80%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
 
 .pics me{
     height: 100%;
     position: absolute;
-    right: 100%;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 
-.pics me:hover{
-    left: 45%;
+
+.pics:hover .me{
+    bottom: 40px;
 }
+
+/*.pics:hover .bg{*/
+/*    left: 45%;*/
+/*}*/
 
 #home{
     height: 100vh;
     background: #324575;
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
 }
 
 #work{
     height: 100vh;
     background: white;
     display: inline-block;
-    width: 100%;
-}
-
-#about{
-    height: 100vh;
-    background: #324575;
-    display: inline-block;
-    width: 100%;
+    max-width: 100%;
 }
 
 #cont{
     height: 100vh;
     background: white;
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
+}
+
+#about{
+    height: 100vh;
+    background: #324575;
+    display: inline-block;
+    max-width: 100%;
 }
