@@ -124,19 +124,19 @@ span:hover{
     height: 100vh;
     background: white;
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
 }
 
 #cont{
     height: 100vh;
     background: #324575;
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
 }
 
 #about{
     height: 100vh;
     background: #324575;
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
 }
