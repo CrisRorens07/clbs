@@ -51,9 +51,20 @@ nav ul li a:hover{
     margin-top: 15%;
 }
 
+.content2{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
 .content h1{
     font-size: 50px;
     color: white;
+    margin-bottom: 20px;
+}
+
+.content2 h2{
+    font-size: 50px;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -86,6 +97,13 @@ span:hover{
     background: darkorange;
     color: white;
 }
+
+.content2 p{
+    color: black;
+    line-height: 22px;
+}
+
+
 
 .pics{
     max-width: 80%;
