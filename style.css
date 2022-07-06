@@ -7,12 +7,20 @@ html{
     scroll-behavior: smooth;
 }
 
-.hero{
+.hero {
     position: relative;
     max-width: 100%;
     height: 100vh;
     background: #324575;
     position: relative;
+}
+hr{
+    height: 1%;
+    background: black;
+    border: none;
+    margin: auto;
+    width: 90%;
+
 }
 
 nav{
@@ -51,10 +59,10 @@ nav ul li a:hover{
     margin-top: 15%;
 }
 
-.content2{
-    margin-left: 8%;
-    margin-top: 15%;
-}
+/*.content2{*/
+/*    margin-left: 8%;*/
+/*    margin-top: 15%;*/
+/*}*/
 
 .content h1{
     font-size: 50px;
@@ -62,7 +70,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 
-.content2 h2{
+h2{
     font-size: 50px;
     color: black;
     margin-bottom: 20px;
@@ -98,41 +106,28 @@ span:hover{
     color: white;
 }
 
-.content2 p{
+ p{
     color: black;
     line-height: 22px;
 }
 
-
-
 .pics{
     max-width: 80%;
-    height: 75%;
+    height: 51vh;
     position: absolute;
     bottom: 0;
     right: 100px;
 }
 
-.pics me{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
-}
-
-
-.pics:hover .me{
-    bottom: 40px;
-}
-
-/*.pics:hover .bg{*/
-/*    left: 45%;*/
+/*.pics me{*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    bottom: 0;*/
 /*}*/
 
 #home{
-    height: 100vh;
+    height: 50vh;
     background: #324575;
     display: inline-block;
     max-width: 100%;
