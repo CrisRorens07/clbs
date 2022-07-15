@@ -7,6 +7,13 @@ html{
     scroll-behavior: smooth;
 }
 
+/*HOME PART*/
+#home{
+    height: 55vh;
+    background: #324575;
+    display: inline-block;
+    max-width: 100%;
+}
 .hero {
     position: relative;
     max-width: 100%;
@@ -59,20 +66,10 @@ nav ul li a:hover{
     margin-top: 15%;
 }
 
-/*.content2{*/
-/*    margin-left: 8%;*/
-/*    margin-top: 15%;*/
-/*}*/
 
 .content h1{
     font-size: 50px;
     color: white;
-    margin-bottom: 20px;
-}
-
-h2{
-    font-size: 50px;
-    color: black;
     margin-bottom: 20px;
 }
 
@@ -113,26 +110,13 @@ span:hover{
 
 .pics{
     max-width: 80%;
-    height: 52vh;
+    height: 48vh;
     position: absolute;
     bottom: 0;
     right: 100px;
 }
 
-/*.pics me{*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    left: 50%;*/
-/*    bottom: 0;*/
-/*}*/
-
-#home{
-    height: 50vh;
-    background: #324575;
-    display: inline-block;
-    max-width: 100%;
-}
-
+/*WORK PART*/
 #work{
     height: 100vh;
     background: white;
@@ -140,6 +124,31 @@ span:hover{
     width: 100%;
 }
 
+h2{
+    margin-top: 5%;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.proj1, .proj1a, .proj2, .proj3, .proj4{
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#work p{
+    text-align: center;
+}
+
+
+/*CONTACT PART*/
 #cont{
     height: 100vh;
     background: #324575;
@@ -147,6 +156,7 @@ span:hover{
     width: 100%;
 }
 
+/*ABOUT PART*/
 #about{
     height: 100vh;
     background: #324575;
