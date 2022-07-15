@@ -168,10 +168,12 @@ h2{
     margin-bottom: 20px;
 }
 
-#cont a, li{
+#cont a{
     color: white;
     text-align: center;
+    text-decoration: none;
 }
+
 
 #cont ul{
     display: flex;
@@ -181,6 +183,7 @@ h2{
     align-items: center;
     justify-content: space-between;
 }
+
 
 /*ABOUT PART*/
 #about{
