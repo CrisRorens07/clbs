@@ -156,7 +156,7 @@ h2{
 
 /*CONTACT PART*/
 #cont{
-    height: 100vh;
+    height: 40vh;
     background: #324575;
     display: inline-block;
     width: 100%;
@@ -168,6 +168,19 @@ h2{
     margin-bottom: 20px;
 }
 
+#cont a, li{
+    color: white;
+    text-align: center;
+}
+
+#cont ul{
+    display: flex;
+    max-width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /*ABOUT PART*/
 #about{
