@@ -2,7 +2,7 @@
 /* Used JS for functions ng autoplay ng video */
 let options = {
     root: null,
-    rootMargin:'0px',
+    rootMargin:'1px',
     threshold:2.0
 };
 let callback = (entries, observer)=>{
