@@ -27,7 +27,6 @@ hr{
     border: none;
     margin: auto;
     width: 90%;
-
 }
 
 nav{
@@ -43,6 +42,7 @@ nav{
     max-width: 100px;
     cursor: pointer;
 }
+
 
 nav ul li {
     display: inline-block;
@@ -115,6 +115,7 @@ span:hover{
     bottom: 0;
     right: 100px;
 }
+/*end of home*/
 
 /*WORK PART*/
 #work{
@@ -152,7 +153,7 @@ h2{
 #work p{
     text-align: center;
 }
-
+/*end of work*/
 
 /*CONTACT PART*/
 #cont{
@@ -183,7 +184,7 @@ h2{
     align-items: center;
     justify-content: space-between;
 }
-
+/*end of contact*/
 
 /*ABOUT PART*/
 #about{
@@ -192,3 +193,16 @@ h2{
     display: inline-block;
     width: 100%;
 }
+
+#likes{
+
+}
+
+#lrn{
+
+}
+
+#recog{
+
+}
+/*end of about*/
