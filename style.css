@@ -3,7 +3,7 @@
     padding: 0;
     font-family: CHAWP;
 }
-html{
+html, body{
     scroll-behavior: smooth;
 }
 
@@ -157,7 +157,7 @@ h2{
 
 /*CONTACT PART*/
 #cont{
-    height: 40vh;
+    height: 30vh;
     background: #324575;
     display: inline-block;
     width: 100%;
@@ -195,15 +195,24 @@ h2{
 }
 
 #likes{
-
+    height: 100vh;
+    background: white;
+    display: inline-block;
+    width: 100%;
 }
 
 #lrn{
-
+    height: 100vh;
+    background: #324575;
+    display: inline-block;
+    width: 100%;
 }
 
 #recog{
+    height: 100vh;
+    background: white;
+    display: inline-block;
+    width: 100%;
 
 }
-
 /*end of about*/
