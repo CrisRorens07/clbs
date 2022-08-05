@@ -156,9 +156,10 @@ h2{
 }
 /*end of work*/
 
+
 /*CONTACT PART*/
 #cont{
-    height: 30vh;
+    height: 40vh;
     background: #324575;
     display: inline-block;
     width: 100%;
@@ -228,7 +229,7 @@ h2{
 
 
 #lrn{
-    height: 50vh;
+    height: 60vh;
     background: #324575;
     display: inline-block;
     width: 100%;
