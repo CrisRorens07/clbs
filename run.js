@@ -23,7 +23,7 @@ observer.observe(document.querySelector('#kbdm'));
 // End of video autoplay script
 
 //for responsive site setting
-var menuList = document.getElementById("menuList");
+var menuList = document.getElementById("menuList");//onclick
 menuList.style.maxHeight = "0px";
 function togglemenu(){
     if (menuList.style.maxHeight == "0px"){
