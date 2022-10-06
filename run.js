@@ -21,3 +21,14 @@ let callback = (entries, observer)=>{
 let observer = new IntersectionObserver(callback, options);
 observer.observe(document.querySelector('#kbdm'));
 // End of video autoplay script
+
+//for responsive site setting
+var menuList = document.getElementById("menuList");
+menuList.style.maxHeight = "0px";
+function togglemenu(){
+    if (menuList.style.maxHeight == "0px"){
+        menuList.style.maxHeight = "130px"
+    }else {
+        menuList.style.maxHeight = "0px"
+    }
+}
