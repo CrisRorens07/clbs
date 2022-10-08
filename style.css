@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Open Sans";
+    font-family: 'Roboto', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -294,11 +294,17 @@ h4{
         transition: 0.5s;
     }
 
+    .content{
+        margin: 30px 0;
+    }
+
     .content h1{
         font-size: 30px;
-        font-weight: bold;
-        color: black;
         margin-bottom: 20px;
+    }
+
+    .content p{
+        font-size: 15px;
     }
 
     .logo{
@@ -311,7 +317,49 @@ h4{
         margin: 30px 0;
     }
 
+    .pics{
+        max-width: 80%;
+        height: 55vh;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
 
+    #work{
+        height: 50vh;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #work a{
+        background: black;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #E6E6E6;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+
+    #work a:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    h2{
+        margin-top: 5%;
+        font-size: 25px;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .proj1,.proj3,.proj2,.proj4{
+        width: 300px;
+        height: 200px;
+        align-items: center;
+    }
 
 
 
