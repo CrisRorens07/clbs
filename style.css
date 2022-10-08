@@ -262,7 +262,7 @@ h4{
 /*End of Footer*/
 
 /*START OF RESPONSIVE SITE*/
-@media only screen and (max-width: 700px) {
+@media(max-width: 700px) {
 
     nav ul{
         width: 100%;
@@ -287,6 +287,14 @@ h4{
         overflow: hidden;
         transition: 0.5s;
     }
+
+    .content h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 20px;
+    }
+
 
 
 
